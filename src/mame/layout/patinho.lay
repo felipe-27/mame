@@ -8,6 +8,8 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 
 <mamelayout version="2">
 
+<!-- define elements -->
+
 	<element name="ula">
 		<image><data><![CDATA[
 			<svg width="210" height="270">
@@ -398,21 +400,33 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 		<text string="PREPARAÇÃO"><color red="0" green="0" blue="0" /></text>
 	</element>
 
-	<!-- define background -->
+<!-- define background -->
 
 	<view name="Default layout">
 		<bounds x="0" y="0" width="1280" height="1200" />
 
-		<!-- define lamps -->
-
 		<element ref="panel_background">
 			<bounds x="-33" y="-980" width="1343" height="2218" />
+		</element>
+
+		<!-- define orange rectangles -->
+		<element ref="rect">
+			<bounds x="788" y="672" width="174" height="39" />
+		</element>
+
+		<element ref="rect">
+			<bounds x="1020" y="672" width="174" height="39" />
+		</element>
+
+		<element ref="rect">
+			<bounds x="382" y="944" width="311" height="68" />
 		</element>
 
 		<element ref="rect">
 			<bounds x="158" y="65" width="369" height="73" />
 		</element>
 
+		<!-- define lamps -->
 		<repeat count="12">
 			<param name="lamp_x" start="762" increment="28"/>
 			<param name="lamp_id" start="11" increment="-1"/>
@@ -505,18 +519,6 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 
 		<element ref="str_mem_data">
 			<bounds x="242" y="476" width="216" height="18" />
-		</element>
-
-		<element ref="rect">
-			<bounds x="788" y="672" width="174" height="39" />
-		</element>
-
-		<element ref="rect">
-			<bounds x="1020" y="672" width="174" height="39" />
-		</element>
-
-		<element ref="rect">
-			<bounds x="382" y="944" width="311" height="68" />
 		</element>
 
 		<!-- define horizontal lines -->
@@ -687,7 +689,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="674" y="669" width="62" height="1" />
 		</element>
 
-<!-- define vertical lines -->
+		<!-- define vertical lines -->
 		<element ref="line">
 			<bounds x="32" y="97" width="4" height="430" />
 		</element>
@@ -790,7 +792,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="736" y="634" width="1" height="35" />
 		</element>
 
-<!-- define 'ENTRADA MANUAL DE DADOS' horizontal lines -->
+		<!-- define 'ENTRADA MANUAL DE DADOS' horizontal lines -->
 		<repeat count="12">
 			<param name="line1_x" start="123" increment="85"/>
 			<element ref="line">
@@ -1108,7 +1110,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="573" y="482" width="11" height="11" />
 		</element>
 
-<!-- define panel diagrams -->
+		<!-- define panel diagrams -->
 		<element ref="diagram_rect">
 			<bounds x="123" y="195" width="78" height="70" />
 		</element>
@@ -1165,7 +1167,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="755" y="469" width="338" height="34" />
 		</element>
 
-	<!-- define arrows -->
+		<!-- define arrows -->
 
 		<element ref="down_arrow">
 			<bounds x="63" y="375" width="14" height="22" />
