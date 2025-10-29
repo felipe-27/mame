@@ -341,85 +341,61 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 	<element name="str_flags_t">
 		<text string="TRANSBORDO"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_flags_v">
 		<text string="VAI - UM"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_ula">
 		<text string="UNIDADE ARITMÉTICA E LÓGICA" ><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_rc">
 		<text string="DADOS DO PAINEL"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_pc">
 		<text string="ENDEREÇO DE INSTRUÇÃO"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_mem_addr">
 		<text string="ENDEREÇO DA MEMÓRIA"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_acc">
 		<text string="ACUMULADOR"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_opcode">
 		<text string="CÓDIGO DE INSTRUÇÃO"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_mem_data">
 		<text string="DADOS DA MEMÓRIA"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_mem">
 		<text string="MEMÓRIA"><color red="0" green="0" blue="0" /></text>
 	</element>
 
-
 	<element name="str_NORMAL">
 		<text string="NORMAL"><color red="0" green="0" blue="0" /></text>
 	</element>
-
-
 	<element name="str_CICLOUNICO">
-		<text string="CICLO ÚNICO">
-			<color red="0" green="0" blue="0" /></text>
+		<text string="CICLO ÚNICO"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_INSTRUCAOUNICA">
-		<text string="INSTRUÇÃO ÚNICA">
-			<color red="0" green="0" blue="0" /></text>
+		<text string="INSTRUÇÃO ÚNICA"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_ENDERECAMENTO">
 		<text string="ENDEREÇAMENTO"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_ARMAZENAMENTO">
 		<text string="ARMAZENAMENTO"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_EXPOSICAO">
 		<text string="EXPOSIÇÃO"><color red="0" green="0" blue="0" /></text>
 	</element>
-
-
-
 	<element name="str_ESPERA">
 		<text string="ESPERA"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_INTERRUPCAO">
 		<text string="INTERRUPÇÃO"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_PARTIDA">
 		<text string="PARTIDA"><color red="0" green="0" blue="0" /></text>
 	</element>
-
 	<element name="str_PREPARACAO">
 		<text string="PREPARAÇÃO"><color red="0" green="0" blue="0" /></text>
 	</element>
