@@ -400,15 +400,20 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 		<text string="PREPARAÇÃO"><color red="0" green="0" blue="0" /></text>
 	</element>
 
-	<element name="str_OCTAL">
-		<text string="OCTAL"><color red="0" green="0" blue="0" /></text>
-	</element>
-	<element name="str_HEXAD">
-		<text string="HEXADECIMAL"><color red="0" green="0" blue="0" /></text>
-	</element>
+	<element name="str_OCTAL"><text string="OCTAL"><color red="0" green="0" blue="0" /></text></element>
+	<element name="str_HEXAD"><text string="HEXADECIMAL"><color red="0" green="0" blue="0" /></text></element>
 	<element name="str_entrada_dados">
-		<text string="E N T R A D A   M A N U A L   D E   D A D O S"><color red="0" green="0" blue="0" /></text>
+		<text string="E N T R A D A     M A N U A L     D E     D A D O S"><color red="0" green="0" blue="0" /></text>
 	</element>
+	<element name="str_fases_operacao">
+		<text string="F  A  S  E  S    D  E    O  P  E  R  A  Ç  Ã  O"><color red="0" green="0" blue="0" /></text>
+	</element>
+	<element name="str_modo_operacao">
+		<text string="M O D O   D E   O P E R A Ç Ã O"><color red="0" green="0" blue="0" /></text>
+	</element>
+	<element name="str_memoria"><text string="M E M Ó R I A"><color red="0" green="0" blue="0" /></text></element>
+	<element name="str_comando"><text string="C O M A N D O"><color red="0" green="0" blue="0" /></text></element>
+	<element name="str_enderecamento_spaces"><text string="E N D E R E Ç A M E N T O"><color red="0" green="0" blue="0" /></text></element>
 
 	<!-- numeros 0-9 -->
 	<repeat count="10">
@@ -1267,7 +1272,16 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="688" y="651" width="36" height="36" />
 		</element>
 
-		<element ref="str_entrada_dados"><bounds x="476" y="872" width="321" height="18"/></element>
+		<!-- texts -->
+		<element ref="str_entrada_dados"><bounds x="476" y="872" width="321" height="17"/></element>
+		<element ref="str_fases_operacao"><bounds x="176" y="561" width="240" height="16"/></element>
+		<element ref="str_modo_operacao"><bounds x="290" y="1049" width="185" height="16"/></element>
+		<element ref="str_memoria"><bounds x="499" y="931" width="75" height="16"/></element>
+		<element ref="str_comando"><bounds x="1003" y="1050" width="80" height="16"/></element>
+
+		<element ref="str_enderecamento_spaces"><bounds x="809" y="711" width="136" height="16"/></element>
+		<element ref="str_memoria"><bounds x="1070" y="711" width="80" height="16"/></element>
+
 		<repeat count="12">
 			<param name="i" start="0" increment="1"/>
 			<param name="x" start="157" increment="85"/>
