@@ -345,25 +345,30 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 		<text string="VAI - UM"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_ula">
-		<text string="UNIDADE ARITMÉTICA E LÓGICA" ><color red="0" green="0" blue="0" /></text>
+		<text string="U  N  I  D  A  D  E">
+			<bounds x="0" y="0" width="163" height="15"></bounds><color red="0" green="0" blue="0" />
+		</text>
+		<text string="A R I T M É T I C A   E   L Ó G I C A">
+			<bounds x="0" y="16" width="165" height="17"></bounds><color red="0" green="0" blue="0" />
+		</text>
 	</element>
 	<element name="str_rc">
-		<text string="DADOS DO PAINEL"><color red="0" green="0" blue="0" /></text>
+		<text string="D  A  D  O  S         D  O         P  A  I  N  E  L"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_pc">
-		<text string="ENDEREÇO DE INSTRUÇÃO"><color red="0" green="0" blue="0" /></text>
+		<text string="E  N  D  E  R  E  Ç  O     D  E     I  N  S  T  R  U  Ç  Ã  O"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_mem_addr">
-		<text string="ENDEREÇO DA MEMÓRIA"><color red="0" green="0" blue="0" /></text>
+		<text string="E  N  D  E  R  E  Ç  O        N  A        M  E  M  Ó  R  I  A"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_acc">
-		<text string="ACUMULADOR"><color red="0" green="0" blue="0" /></text>
+		<text string="A  C  U  M  U  L  A  D  O  R"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_opcode">
-		<text string="CÓDIGO DE INSTRUÇÃO"><color red="0" green="0" blue="0" /></text>
+		<text string="C Ó D I G O   D E   I N S T R U Ç Ã O"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_mem_data">
-		<text string="DADOS DA MEMÓRIA"><color red="0" green="0" blue="0" /></text>
+		<text string="D A D O S     D A    M E M Ó R I A"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_mem">
 		<text string="MEMÓRIA"><color red="0" green="0" blue="0" /></text>
@@ -489,6 +494,8 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 		</element>
 
 		<!-- define lamps -->
+
+		<!-- ENDEREÇO NA MEMÓRIA -->
 		<repeat count="12">
 			<param name="lamp_x" start="762" increment="28"/>
 			<param name="lamp_id" start="11" increment="-1"/>
@@ -502,6 +509,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="840" y="121" width="195" height="18" />
 		</element>
 
+		<!-- ENDEREÇO DE INSTRUÇÃO -->
 		<repeat count="12">
 			<param name="lamp_x" start="762" increment="28"/>
 			<param name="lamp_id" start="11" increment="-1"/>
@@ -511,26 +519,26 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			</element>
 		</repeat>
 
-		<element ref="str_pc">
-			<bounds x="823" y="237" width="214" height="18" />
-		</element>
+		<element ref="str_pc"><bounds x="823" y="237" width="214" height="18" /></element>
 
+		<!-- transbordo -->
 		<element name="flags1" ref="bit_lamp" inputtag="FLAGS" inputmask="0x002">
 			<bounds x="765" y="272" width="11" height="11" />
 		</element>
 
-		<element ref="str_flags_t">
-			<bounds x="722" y="301" width="106" height="18" />
-		</element>
+		<element ref="str_flags_t"><bounds x="722" y="301" width="106" height="18" /></element>
 
+		<!-- vai-um -->
 		<element name="flags0" ref="bit_lamp" inputtag="FLAGS" inputmask="0x001">
 			<bounds x="1069" y="272" width="11" height="11" />
 		</element>
 
-		<element ref="str_flags_v">
-			<bounds x="1052" y="301" width="57" height="18" />
-		</element>
+		<element ref="str_flags_v"><bounds x="1052" y="301" width="57" height="18" /></element>
 
+		<!-- ula -->
+		<element ref="str_ula"><bounds x="830" y="390" width="165" height="30" /></element>
+
+		<!-- DADOS DO PAINEL -->
 		<repeat count="12">
 			<param name="lamp_x" start="762" increment="28"/>
 			<param name="lamp_id" start="11" increment="-1"/>
@@ -544,6 +552,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="830" y="529" width="215" height="18" />
 		</element>
 
+		<!-- ACUMULADOR -->
 		<repeat count="8">
 			<param name="lamp_x" start="233" increment="28"/>
 			<param name="lamp_id" start="7" increment="-1"/>
@@ -557,6 +566,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="273" y="239" width="140" height="18" />
 		</element>
 
+		<!-- CÓDIGO DE INSTRUÇÃO -->
 		<repeat count="8">
 			<param name="lamp_x" start="233" increment="28"/>
 			<param name="lamp_id" start="7" increment="-1"/>
@@ -570,6 +580,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="251" y="356" width="193" height="18" />
 		</element>
 
+		<!-- DADOS DA MEMÓRIA -->
 		<repeat count="8">
 			<param name="lamp_x" start="233" increment="28"/>
 			<param name="lamp_id" start="7" increment="-1"/>
