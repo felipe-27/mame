@@ -375,13 +375,18 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 	</element>
 
 	<element name="str_NORMAL">
-		<text string="NORMAL"><color red="0" green="0" blue="0" /></text>
+		<text string="N O R M A L"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_CICLOUNICO">
-		<text string="CICLO ÚNICO"><color red="0" green="0" blue="0" /></text>
+		<text string="C I C L O  Ú N I C O"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_INSTRUCAOUNICA">
-		<text string="INSTRUÇÃO ÚNICA"><color red="0" green="0" blue="0" /></text>
+		<text string="I N S T R U Ç Ã O">
+			<bounds x="0" y="0" width="68" height="12"></bounds><color red="0" green="0" blue="0" />
+		</text>
+		<text string="Ú N I C A">
+			<bounds x="0" y="13" width="68" height="12"></bounds><color red="0" green="0" blue="0" />
+		</text>
 	</element>
 	<element name="str_ENDERECAMENTO">
 		<text string="ENDEREÇAMENTO"><color red="0" green="0" blue="0" /></text>
@@ -390,7 +395,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 		<text string="ARMAZENAMENTO"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_EXPOSICAO">
-		<text string="EXPOSIÇÃO"><color red="0" green="0" blue="0" /></text>
+		<text string="E X P O S I Ç Ã O"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_ESPERA">
 		<text string="ESPERA"><color red="0" green="0" blue="0" /></text>
@@ -1029,7 +1034,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="93" y="994" width="42" height="42" />
 		</element>
 		<element ref="str_NORMAL">
-			<bounds x="90" y="963" width="60" height="18" />
+			<bounds x="83" y="960" width="70" height="16" />
 		</element>
 
 		<!-- CICLOUNICO -->
@@ -1037,7 +1042,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="200" y="994" width="42" height="42"  />
 		</element>
 		<element ref="str_CICLOUNICO">
-			<bounds x="185" y="963" width="72" height="18" />
+			<bounds x="184" y="961" width="78" height="11" />
 		</element>
 
 		<!-- INSTRUCAOUNICA -->
@@ -1045,7 +1050,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="310" y="994" width="42" height="42"  />
 		</element>
 		<element ref="str_INSTRUCAOUNICA">
-			<bounds x="294" y="961" width="68" height="22" />
+			<bounds x="293" y="960" width="70" height="22" />
 		</element>
 
 		<!-- ENDERECAMENTO -->
@@ -1053,7 +1058,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="413" y="994" width="42" height="42"  />
 		</element>
 		<element ref="str_ENDERECAMENTO">
-			<bounds x="397" y="963" width="70" height="18" />
+			<bounds x="393" y="960" width="78" height="16" />
 		</element>
 
 		<!-- ARMAZENAMENTO -->
@@ -1061,7 +1066,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="520" y="994" width="42" height="42"  />
 		</element>
 		<element ref="str_ARMAZENAMENTO">
-			<bounds x="501" y="963" width="72" height="18" />
+			<bounds x="497" y="960" width="79" height="16" />
 		</element>
 
 		<!-- EXPOSICAO -->
@@ -1069,7 +1074,7 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="626" y="994" width="42" height="42"  />
 		</element>
 		<element ref="str_EXPOSICAO">
-			<bounds x="614" y="963" width="68" height="18" />
+			<bounds x="603" y="960" width="78" height="13" />
 		</element>
 
 		<element name="ESPERA" ref="button" inputtag="BUTTONS" inputmask="0x040">
