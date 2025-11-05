@@ -429,6 +429,13 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 		</text>
 	</element>
 
+	<element name="str_busca"><text string="B U S C A"><color red="0" green="0" blue="0"/></text></element>
+	<element name="str_execucao"><text string="E X E C U Ç Ã O"><color red="0" green="0" blue="0"/></text></element>
+	<element name="str_indexacao"><text string="INDEXAÇÃO"><color red="0" green="0" blue="0"/></text></element>
+	<element name="str_indireto"><text string="I N D I R E T O"><color red="0" green="0" blue="0"/></text></element>
+	<element name="str_parado"><text string="PARADO"><color red="0" green="0" blue="0"/></text></element>
+	<element name="str_externo"><text string="EXTERNO"><color red="0" green="0" blue="0"/></text></element>
+
 	<!-- numeros 0-9 -->
 	<repeat count="10">
 		<param name="i" start="0" increment="1"/>
@@ -1326,5 +1333,15 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 		<element ref="str_HEXAD"><bounds x="755" y="505" width="32" height="12"/></element>
 
 		<element ref="str_entrada_saida"><bounds x="137" y="222" width="48" height="36"/></element>
+
+		<!-- fases de operação -->
+		<element ref="str_busca"><bounds x="136" y="610" width="55" height="16"/></element>
+		<element ref="str_execucao"><bounds x="297" y="610" width="85" height="16"/></element>
+		<element ref="str_indexacao"><bounds x="440" y="610" width="69" height="16"/></element>
+		<element ref="str_indireto"><bounds x="255" y="698" width="80" height="16"/></element>
+
+		<element ref="str_parado"><bounds x="574" y="625" width="46" height="16"/></element>
+		<element ref="str_externo"><bounds x="682" y="625" width="50" height="16"/></element>
+
 	</view>
 </mamelayout>
