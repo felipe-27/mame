@@ -436,6 +436,11 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 	<element name="str_parado"><text string="PARADO"><color red="0" green="0" blue="0"/></text></element>
 	<element name="str_externo"><text string="EXTERNO"><color red="0" green="0" blue="0"/></text></element>
 
+	<element name="str_fixo"><text string="F I X O"><color red="0" green="0" blue="0"/></text></element>
+	<element name="str_sequencial"><text string="SEQÜENCIAL"><color red="0" green="0" blue="0"/></text></element>
+	<element name="str_liberada"><text string="LIBERADA"><color red="0" green="0" blue="0"/></text></element>
+	<element name="str_protegida"><text string="PROTEGIDA"><color red="0" green="0" blue="0"/></text></element>
+
 	<!-- numeros 0-9 -->
 	<repeat count="10">
 		<param name="i" start="0" increment="1"/>
@@ -1342,6 +1347,12 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 
 		<element ref="str_parado"><bounds x="574" y="625" width="46" height="16"/></element>
 		<element ref="str_externo"><bounds x="682" y="625" width="50" height="16"/></element>
+
+		<!-- switches -->
+		<element ref="str_fixo"><bounds x="795" y="615" width="40" height="16"/></element>
+		<element ref="str_sequencial"><bounds x="913" y="615" width="72" height="16"/></element>
+		<element ref="str_liberada"><bounds x="1012" y="615" width="56" height="16"/></element>
+		<element ref="str_protegida"><bounds x="1146" y="615" width="68" height="16"/></element>
 
 	</view>
 </mamelayout>
