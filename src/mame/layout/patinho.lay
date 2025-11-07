@@ -398,13 +398,13 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 		<text string="E X P O S I Ç Ã O"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_ESPERA">
-		<text string="ESPERA"><color red="0" green="0" blue="0" /></text>
+		<text string="E S P E R A"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_INTERRUPCAO">
 		<text string="INTERRUPÇÃO"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_PARTIDA">
-		<text string="PARTIDA"><color red="0" green="0" blue="0" /></text>
+		<text string="P A R T I D A"><color red="0" green="0" blue="0" /></text>
 	</element>
 	<element name="str_PREPARACAO">
 		<text string="PREPARAÇÃO"><color red="0" green="0" blue="0" /></text>
@@ -1077,32 +1077,36 @@ Front panel of the Patinho Feio mini-computer with clickable buttons, switches a
 			<bounds x="603" y="960" width="78" height="13" />
 		</element>
 
+		<!-- ESPERA -->
 		<element name="ESPERA" ref="button" inputtag="BUTTONS" inputmask="0x040">
 			<bounds x="915" y="994" width="42" height="42"  />
 		</element>
 		<element ref="str_ESPERA">
-			<bounds x="912" y="963" width="58" height="18" />
+			<bounds x="907" y="960" width="64" height="16" />
 		</element>
 
+		<!-- INTERRUPCAO -->
 		<element name="INTERRUPCAO" ref="button" inputtag="BUTTONS" inputmask="0x080">
 			<bounds x="1022" y="994" width="42" height="42"  />
 		</element>
 		<element ref="str_INTERRUPCAO">
-			<bounds x="1005" y="963" width="74" height="18" />
+			<bounds x="1004" y="960" width="76" height="14" />
 		</element>
 
+		<!-- PARTIDA -->
 		<element name="PARTIDA" ref="sqr_button" inputtag="BUTTONS" inputmask="0x100">
 			<bounds x="1120" y="992" width="56" height="46"  />
 		</element>
 		<element ref="str_PARTIDA">
-			<bounds x="1119" y="962" width="66" height="20" />
+			<bounds x="1114" y="960" width="67" height="16" />
 		</element>
 
+		<!-- PREPARACAO -->
 		<element name="PREPARACAO" ref="button" inputtag="BUTTONS" inputmask="0x200">
 			<bounds x="1128" y="1092" width="42" height="42"  />
 		</element>
 		<element ref="str_PREPARACAO">
-			<bounds x="1114" y="1154" width="68" height="18" />
+			<bounds x="1114" y="1152" width="70" height="16" />
 		</element>
 
 		<!-- define circles -->
